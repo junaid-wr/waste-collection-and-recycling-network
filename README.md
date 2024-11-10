@@ -211,7 +211,7 @@
             notification.classList.add("show");
             setTimeout(function() {
                 notification.classList.remove("show");
-            }, 5000); // Hide after 5 seconds
+            }, 5000); // Hide after 10 seconds
         }
 
         // Trigger notification on page load
